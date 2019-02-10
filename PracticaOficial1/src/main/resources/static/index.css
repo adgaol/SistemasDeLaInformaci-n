@@ -1,0 +1,40 @@
+@charset "ISO-8859-1";
+body{
+	/*margin-left: 200px;
+	margin-top: 200px;
+	background-image: url("../images/logginImage.jpg") ;
+	background-repeat: no-repeat;
+	background-size: cover;*/
+	
+}
+#content{
+	margin-left: 200px;
+	margin-top: 200px;
+	background-image: url("../images/logginImage.jpg") ;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 600px;
+}
+#init{
+	float: left;
+	margin-right: 20px;
+	
+	
+}
+#log{
+	float: left;
+}
+#user{
+	float: left;
+	margin-right:20px; 
+	margin-top: 32px;
+}
+#password{
+	float: left;
+	margin-top: 32px;
+}
+#enviarLoggin{
+	margin-left: 200px;
+	margin-top: 30px;
+}
