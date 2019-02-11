@@ -5,5 +5,11 @@ $(document).ready(function(){
 		$("#contenido").load("serviciosPendientes.html");
 		alert("mierda");
 	}
+	function recogerPendientes(){
+		/*<![CDATA[*/
+		
+		var	 pendientes=/*[[${servicio.Name}]]*/null;
+		/*]]>*/
+	}
 }
 )
