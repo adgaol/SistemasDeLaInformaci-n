@@ -1,20 +1,23 @@
 @charset "ISO-8859-1";
 body{
-	/*margin-left: 200px;
+	margin-left: 200px;
 	margin-top: 200px;
-	background-image: url("../images/logginImage.jpg") ;
-	background-repeat: no-repeat;
-	background-size: cover;*/
+	background-image: url("../images/fondoLog.png") ;
+	
+	/*background-size: cover;*/
 	
 }
 #content{
-	margin-left: 200px;
+	margin-left: 300px;
 	margin-top: 200px;
-	background-image: url("../images/logginImage.jpg") ;
+	background-color: white;
+	
+	/*background-image: url("../images/logginImage.jpg") ;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: center;
-	height: 600px;
+	background-position: center;*/
+	height: 300px;
+	width: 400px;
 }
 #init{
 	float: left;
@@ -37,4 +40,13 @@ body{
 #enviarLoggin{
 	margin-left: 200px;
 	margin-top: 30px;
+}
+.eLoggin{
+	margin-left: 50px;
+}
+#inputPassword{
+	margin-left: 20px;
+}
+#inputUser{
+	margin-left: 40px;
 }

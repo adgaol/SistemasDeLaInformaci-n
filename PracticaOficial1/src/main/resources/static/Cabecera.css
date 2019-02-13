@@ -5,14 +5,23 @@
 	border-right: solid;
 	border-bottom:solid;
 	border-top:solid;
-	
+	color:black;
 	padding-left:5px;
 	padding-right:5px;
 	text-align:center;
 	float: left;
 }
+#imageTop{
+	background-image: url("../images/fondoLog.png");
+	height: 143px;
+	width:auto;
+	background-color: black;
+	text-align: center;
+	
+}
+
 #menu{
-	margin-top:143px;
+	/*margin-top:143px;*/
 	
 	float:left;
 	width: 70%;
@@ -26,8 +35,5 @@
 	background-color: red;
 	
 }
-#imageTop{
-	height: 10px;
-	
-}
+
 

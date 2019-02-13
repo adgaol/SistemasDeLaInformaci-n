@@ -4,6 +4,7 @@ $(document).ready(function(){
     function identificar(){
         var user=$("#user").value;
         var password=$("#password").value;
+        
     }
 
 });

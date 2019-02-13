@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="index.css"/>
+<title>Insert title here</title>
+</head>
+<body>
+<div id=content>
+	<div id=init>
+		<h1 class=eLoggin>	Introduce tú usuario</h1>
+	</div>
+	<div id=log>
+		<form action="/log" method="post">
+			<div id=user>
+				<span class=eLoggin>Usuario:	</span><input id=inputUser type="text" name='user'>
+			</div>
+			<div id=password>
+				<span class=eLoggin>Contraseña:	</span>
+				<input id=inputPassword type="text" name='password'>
+			</div>
+			<br>
+			<input id=enviarLoggin type='submit' value='Enviar'  />
+		</form>
+	</div>
+</div>
+</body>
+</html>
