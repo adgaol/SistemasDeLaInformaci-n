@@ -13,5 +13,17 @@ td{
 table{
 	
 	border-style: solid;
-	float: inherit;
+	float: left;
+}
+@media (max-width: 640px){
+	#tabla{
+	margin-top: 33px;
+	
+	}
+}
+@media (max-width: 415px){
+	#tabla{
+	margin-top: 66px;
+	
+	}
 }

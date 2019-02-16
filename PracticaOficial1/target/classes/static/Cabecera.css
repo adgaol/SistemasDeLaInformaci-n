@@ -10,6 +10,10 @@
 	padding-right:5px;
 	text-align:center;
 	float: left;
+	text-decoration: none;
+}
+a{
+	text-decoration: none;
 }
 #imageTop{
 	background-image: url("../images/fondoLog.png");
@@ -26,7 +30,7 @@
 	float:left;
 	width: 70%;
 	background-color: red;
-	
+	text-decoration:none;
 	height: 33px;
 }
 #logo{
@@ -35,5 +39,11 @@
 	background-color: red;
 	
 }
-
+#cerrar{
+	margin-top:10px;
+	margin-right:10px;
+	float: right;
+	background: rgba(226,226,226,1);
+	color: black;
+}
 

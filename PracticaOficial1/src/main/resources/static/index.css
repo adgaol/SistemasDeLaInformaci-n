@@ -19,6 +19,45 @@ body{
 	height: 300px;
 	width: 400px;
 }
+@media (max-width: 910px){
+	#content{
+		margin-left: 100px;
+		width: 290px;
+		height: 350px;
+	}
+	#enviarLoggin{
+		margin-left: 130px;
+		
+	}
+}
+@media (max-width: 600px){
+	#content{
+		margin-left: 0px;
+		width: 190px;
+		height: 450px;
+	}
+	#enviarLoggin{
+		margin-left: 0px;
+		
+	}
+	.eLoggin{
+	margin-left: 0px;
+	}
+	#inputPassword{
+		margin-left: 0px;
+	}
+	#inputUser{
+		margin-left: 0px;
+	}
+	#user{
+	
+	margin-right:0px; 
+	
+	}
+	body{
+	margin-left: 0px;
+	}
+}
 #init{
 	float: left;
 	margin-right: 20px;

@@ -1,5 +1,8 @@
 @charset "ISO-8859-1";
-.agenda {  }
+table{
+	width: 80%;
+}
+
 
 /* Dates */
 .agenda .agenda-date { width: 170px; }
@@ -14,7 +17,18 @@
 .agenda .agenda-date .shortdate {
   font-size: 0.75em; 
 }
-
+@media (max-width: 640px){
+	#tabla{
+	margin-top: 33px;
+	
+	}
+}
+@media (max-width: 415px){
+	#tabla{
+	margin-top: 66px;
+	
+	}
+}
 
 /* Times */
 .agenda .agenda-time{ width: 140px; } 
